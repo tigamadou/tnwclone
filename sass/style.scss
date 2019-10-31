@@ -6,11 +6,39 @@ body{
     padding: 0px;
     margin: 0px;
 }
-.navbar{
-    
+*{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.dflex-sb-c{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar.top{    
+    background-color: #000;
+    a{
+        color: hsla(0,0%,100%,.6);
+        padding: 10px 15px;
+        display: block;
+    }
+    a:hover{
+        cursor: pointer;
+        color: #fff;
+    }
 }
 @media screen and (max-width:$mobile){
-
+    .navbar.top{
+        display: none;
+    }
 }
 @media screen and (max-width:$tablet){
     

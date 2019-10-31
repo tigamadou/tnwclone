@@ -1,6 +1,35 @@
 body {
   padding: 0px;
-  margin: 0px;
-}
+  margin: 0px; }
+
+* {
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.dflex-sb-c {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.navbar.top {
+  background-color: #000; }
+  .navbar.top a {
+    color: rgba(255, 255, 255, 0.6);
+    padding: 10px 15px;
+    display: block; }
+  .navbar.top a:hover {
+    cursor: pointer;
+    color: #fff; }
+
+@media screen and (max-width: 768px) {
+  .navbar.top {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
