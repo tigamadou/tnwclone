@@ -59,8 +59,7 @@ ul{
         img{
             height:30px;
         }
-    }
-    
+    }    
     .nav-link{
         color:#adadad;
         display:block;
@@ -69,19 +68,31 @@ ul{
     .nav-link:hover{
         color:#000;
     }
-    .nav-right{
-        
+    .nav-right{        
         .nav-link{
             border-left:1px solid #adadad;
             height: 48px;
             display: flex;
-
         }
+    }
+}
+.ft-art-1{
+    .cover{
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/thumb_site-796x417.png");
+    }
+}
+.ft-art-2{
+    .cover{
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/italian-blokchain-bitcoin-cryptocurrency-sales-online-purchases-payment-796x448.jpg");
+    }
+}
+.ft-art-3{
+    .cover{
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/200-calories-4-3-796x417.png");
     }
 }
 @media screen and (max-width:$mobile){
     header{
-
         .navbar.top{
             display: none;
         }
@@ -101,6 +112,53 @@ ul{
                     display: flex;
         
                 }
+            }
+        }
+    }
+    .featured{
+        display: block;
+        padding: 15px;
+        .ft-art{
+            position: relative; 
+            min-height: 30vh;
+            margin-bottom: 10px;
+            .cover{
+                height: 30vh;
+                background-size: 100%;
+            }
+            .date{
+                display: none;
+            }
+            .infos{
+                position: absolute;
+                top: 0px;
+                bottom: 0px;
+                right: 0px;
+                left: 0px;
+                color: #fff;
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1));
+                .info-btm{
+                    position: absolute;
+                    bottom: 0px;
+                    right: 0px;
+                    left: 0px;
+                    padding: 15px;
+                    .category{
+                        font-size: 16px;
+                    }
+                    .title{
+                        margin: 5px 0px;
+                        font-size: 18px;
+                    }
+                    .details{
+                        color: hsla(0,0%,100%,.6);
+                        font-size: 12px;                        
+                    }
+                }           
+            }
+            .infos:hover{
+                cursor: pointer;
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1));
             }
         }
     }
@@ -134,7 +192,6 @@ ul{
 }
 @media screen and (min-width:$tablet){
     header{
-
         .navbar.top{
             margin-left: 0px;
         }
