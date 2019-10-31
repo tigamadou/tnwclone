@@ -5,9 +5,11 @@ $desktop:1280px;
 body{
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 *{
     max-width: 100%;
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
@@ -22,27 +24,134 @@ ul{
     justify-content: space-between;
     align-items: center;
 }
+.dflex-c-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .navbar.top{    
     background-color: #000;
+    padding:0px 10px;
     a{
         color: hsla(0,0%,100%,.6);
-        padding: 10px 15px;
+        padding: 5px 15px;
         display: block;
+        font-size:12px;
     }
     a:hover{
         cursor: pointer;
         color: #fff;
     }
 }
-@media screen and (max-width:$mobile){
-    .navbar.top{
-        display: none;
+.navbar.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+    padding:0px 10px;
+    .logo-sm{
+        background: red;
+        width: 100px;
+        height: 48px;
+        display:flex;
+        padding: 5px;
+        img{
+            height:30px;
+        }
+    }
+    
+    .nav-link{
+        color:#adadad;
+        display:block;
+        padding:5px 10px;
+    }
+    .nav-link:hover{
+        color:#000;
+    }
+    .nav-right{
+        
+        .nav-link{
+            border-left:1px solid #adadad;
+            height: 48px;
+            display: flex;
+
+        }
     }
 }
-@media screen and (max-width:$tablet){
-    
+@media screen and (max-width:$mobile){
+    header{
+
+        .navbar.top{
+            display: none;
+        }
+        .navbar.main{
+            .breadcumb{
+                display: flex;
+            }
+            .logo-sm{
+                display:block;
+            }
+            .nav-left{
+                display: none!important;
+            }
+            .nav-right{
+            
+                .nav-link{
+                    display: flex;
+        
+                }
+            }
+        }
+    }
 }
-@media screen and (max-width:$desktop){
-    
+@media screen  and (min-width:$mobile){
+    header{
+        position: relative;
+        .navbar.top{
+            margin-left: 100px;
+        }
+        .navbar.main{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 100px;;
+            .breadcumb{
+                display: none;
+            }
+            .logo-sm{
+                position:absolute;
+                top: 0px;
+                left: 0px;
+                bottom:0px;
+                height: 100%;
+            }
+            .nav-left{
+                display: flex;
+            }
+        }
+    }
+}
+@media screen and (min-width:$tablet){
+    header{
+
+        .navbar.top{
+            margin-left: 0px;
+        }
+        .navbar.main{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 0px;;
+            .breadcumb{
+                display: none;
+            }
+            .logo-sm{
+                display: none;
+            }
+            .nav-left{
+                display: flex;
+            }
+        }
+    }
 }
