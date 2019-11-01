@@ -235,8 +235,7 @@ ul{
             margin-bottom: 10px;
             .cover{
                 height: 30vh;
-                background-size: 100%;
-                
+                background-size: 100%;                
             }
             .date{
                 display: none;
@@ -274,7 +273,6 @@ ul{
             }
         }
     }
-
     .latest-news{
         display: block;
         padding: 0px;
@@ -301,6 +299,95 @@ ul{
             display:none;
         }
         
+    }
+    .cat-sec{
+        display: block;
+        padding: 0px;
+        margin: 0px;
+        .lyt-2{
+            position: relative;
+            margin-bottom: 2px;
+            .cover{
+                height: 366px;
+                width: 487px;
+                background-size: cover;
+            }
+            .content{
+                position: absolute;
+                top: 0px;
+                bottom: 0px;
+                right: 0px;
+                left: 0px;
+                color: #fff;
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
+                .content-img{
+                    position: absolute;
+                    bottom: 0px;
+                    right: 0px;
+                    left: 0px;
+                    padding: 15px;
+                }
+                .label{
+                    font-size: 16px;
+                    color: #fff;
+                }
+                .content-head{
+                    margin: 5px 0px;
+                    font-size: 18px;                    
+                    a{
+                        color: #fff;
+                        font-weight: 700;
+                    }
+                }
+                .author{
+                    margin: 5px 0px;
+                    font-size: 12px;
+                    a{
+                        color: hsla(0,0%,100%,.6);
+                    }
+                }
+            }
+            .content:hover{
+                cursor: pointer;
+                background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1));
+            }
+        }
+        .lyt-3{
+            display: block;
+            .content{
+                background: #fffaf8;
+                float: left;
+                padding: 10px 15px 2px;
+                height: 96px;
+                width: 400px;
+            }
+            .label{
+                color: #f42;
+                font-size: 14px;
+                font-weight: 400;
+            }
+            .label-head{
+                margin-top: 0px;
+                font-size: 14px;
+                font-weight: 600;
+                a{
+                    color: #f42;
+                }
+            }
+            .label-hd-lg {
+                height: 96px;
+                width: 96px;
+                background-size: cover;
+                float: right;
+            }
+            .links{
+                padding-top: 5px;
+                list-style: square;
+                a{
+                    color: #555;
+                }
+            }
+        }
     }
 }
 @media screen  and (min-width:$mobile){
