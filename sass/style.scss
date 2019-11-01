@@ -105,6 +105,26 @@ ul{
         font-size:2rem;
     }
 }
+.sec-title:hover{
+    cursor: pointer;
+    color: #000;
+}
+.art-cover:hover{
+    cursor: pointer;
+}
+.art-title{
+    margin-bottom: 0px;
+}
+.art-title:hover{
+    cursor: pointer;
+    color: #f42;
+}
+.art-infos{
+    color: #aaa;
+    font-size: 12px!important;
+    font-weight: 700;
+    padding: 5px 0px;
+}
 @media screen and (max-width:$mobile){
     .grid{
         display:block;
@@ -127,8 +147,7 @@ ul{
             .nav-right{
             
                 .nav-link{
-                    display: flex;
-        
+                    display: flex;        
                 }
             }
         }
@@ -183,7 +202,24 @@ ul{
     }
 
     .latest-news{
-
+        display: block;
+        padding: 0px;
+        margin: 0px;
+        .lt-article{
+            clear: both;
+            margin-bottom: 15px;
+            .art-cover{
+                height: 75px;
+                width: 75px;
+                margin-right: 10px;
+                float: left;            
+                background-size: cover;
+                bottom: 0px;
+                position: relative;
+                margin-bottom: 5px;
+            }
+        }
+        
     }
 }
 @media screen  and (min-width:$mobile){
@@ -319,8 +355,7 @@ ul{
         grid-column-gap: 15px;
         grid-row-gap: 15px;
     }
-    .grid-3-3{
-       
+    .grid-3-3{       
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
         grid-column-gap: 15px;
@@ -353,7 +388,6 @@ ul{
         height:60vh;
         .ft-art{
             position: relative; 
-            
             margin-bottom: 10px;
             margin:5px;
             .cover{
@@ -414,6 +448,16 @@ ul{
             
             height:50%;
             
+        }
+    }
+    .latest-news{
+        .art-cover{
+            height: 129px;
+            width: 258px;
+            background-size: cover;
+            bottom: 0px;
+            position: relative;
+            margin-bottom: 0px;
         }
     }
     
