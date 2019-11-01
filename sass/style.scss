@@ -128,6 +128,74 @@ ul{
     font-weight: 700;
     padding: 5px 0px;
 }
+.latest-funding{
+    .header{
+        margin-bottom:15px;
+        ul{
+            a{
+                color:$primary;
+            }
+            a:hover{
+                color:#000;
+            }
+        }
+    }
+    .fund-article{
+        position: relative;
+        background:#fffaf8;
+        margin-bottom:24px;
+        .logo{
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            top:10px;
+            left: 10px;
+            background-size:cover;
+            img{
+                display:none;
+            }
+            
+        }
+        .title{
+            background: $primary;
+            padding: 15px 15px 10px 85px;
+            color:#fff;
+            font-weight: bold;
+        }
+        .amount{
+            background: $light;
+            padding: 10px 15px 15px 85px;
+            color:#000;
+            font-weight: bold;
+            small{
+                font-size:12px;
+                color:#aaa;
+            }
+        }
+        .content{
+            padding:16px;
+            ul{
+                li{
+                    margin-bottom:10px;
+                    a{
+                        color:#333;
+                        font-size:16px;
+                        .icon{
+                            margin-right:15px;
+                        }
+                    }
+                }
+            }
+        }
+        .footer{
+            padding:16px;
+            border-top:1px solid rgba(255,68,34,.25);
+            font-size:12px;
+        }
+    }
+    
+    
+}
 @media screen and (max-width:$mobile){
     .grid{
         display:block;
@@ -228,69 +296,7 @@ ul{
         
     }
     .latest-funding{
-        .header{
-            margin-bottom:15px;
-            ul{
-                a{
-                    color:$primary;
-                }
-                a:hover{
-                    color:#000;
-                }
-            }
-        }
-        .fund-article{
-            position: relative;
-            background:#fffaf8;
-            margin-bottom:24px;
-            .logo{
-                width: 60px;
-                height: 60px;
-                position: absolute;
-                top:10px;
-                left: 10px;
-                background-size:cover;
-                img{
-                    display:none;
-                }
-                
-            }
-            .title{
-                background: $primary;
-                padding: 15px 15px 10px 85px;
-                color:#fff;
-                font-weight: bold;
-            }
-            .amount{
-                background: $light;
-                padding: 10px 15px 15px 85px;
-                color:#000;
-                font-weight: bold;
-                small{
-                    font-size:12px;
-                    color:#aaa;
-                }
-            }
-            .content{
-                padding:16px;
-                ul{
-                    li{
-                        margin-bottom:10px;
-                        a{
-                            color:#333;
-                            font-size:16px;
-                            .icon{
-                                margin-right:15px;
-                            }
-                        }
-                    }
-                }
-            }
-            .footer{
-                padding:16px;
-                border-top:1px solid rgba(255,68,34,.25);
-            }
-        }
+        
         .fund-article:last-child{
             display:none;
         }
@@ -423,7 +429,27 @@ ul{
             margin-bottom: 0px;
         }
     }
-    
+    .latest-funding{
+        .header{
+            display:block;
+            ul{
+                justify-content: flex-start;
+                li{
+                    padding:0px;
+                }
+                li:nth-child(2){
+                    padding:0px 10px;
+                    border-left: 1px solid $primary;
+                    border-right: 1px solid $primary;
+                    margin:0px 10px;
+                }
+            }
+        }
+        .fund-article:last-child{
+            display:none;
+        }
+        
+    }
 }
 @media screen and (min-width:$tablet){
     .grid{
@@ -545,6 +571,26 @@ ul{
             position: relative;
             margin-bottom: 0px;
         }
+    }
+    .latest-funding{
+        .header{
+            display:flex;
+            ul{
+                li{
+                    padding:0px;
+                }
+                li:nth-child(2){
+                    padding:0px 10px;
+                    border-left: 1px solid $primary;
+                    border-right: 1px solid $primary;
+                    margin:0px 10px;
+                }
+            }
+        }
+        .fund-article:last-child{
+            display:block;
+        }
+        
     }
     
 }

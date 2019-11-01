@@ -129,6 +129,66 @@ ul {
   padding: 5px 0px;
 }
 
+.latest-funding .header {
+  margin-bottom: 15px;
+}
+.latest-funding .header ul a {
+  color: #fa4625;
+}
+.latest-funding .header ul a:hover {
+  color: #000;
+}
+.latest-funding .fund-article {
+  position: relative;
+  background: #fffaf8;
+  margin-bottom: 24px;
+}
+.latest-funding .fund-article .logo {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-size: cover;
+}
+.latest-funding .fund-article .logo img {
+  display: none;
+}
+.latest-funding .fund-article .title {
+  background: #fa4625;
+  padding: 15px 15px 10px 85px;
+  color: #fff;
+  font-weight: bold;
+}
+.latest-funding .fund-article .amount {
+  background: #fff4f2;
+  padding: 10px 15px 15px 85px;
+  color: #000;
+  font-weight: bold;
+}
+.latest-funding .fund-article .amount small {
+  font-size: 12px;
+  color: #aaa;
+}
+.latest-funding .fund-article .content {
+  padding: 16px;
+}
+.latest-funding .fund-article .content ul li {
+  margin-bottom: 10px;
+}
+.latest-funding .fund-article .content ul li a {
+  color: #333;
+  font-size: 16px;
+}
+.latest-funding .fund-article .content ul li a .icon {
+  margin-right: 15px;
+}
+.latest-funding .fund-article .footer {
+  padding: 16px;
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  font-size: 12px;
+}
+
 @media screen and (max-width: 768px) {
   .grid {
     display: block;
@@ -222,64 +282,6 @@ ul {
     margin-bottom: 5px;
   }
 
-  .latest-funding .header {
-    margin-bottom: 15px;
-  }
-  .latest-funding .header ul a {
-    color: #fa4625;
-  }
-  .latest-funding .header ul a:hover {
-    color: #000;
-  }
-  .latest-funding .fund-article {
-    position: relative;
-    background: #fffaf8;
-    margin-bottom: 24px;
-  }
-  .latest-funding .fund-article .logo {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-size: cover;
-  }
-  .latest-funding .fund-article .logo img {
-    display: none;
-  }
-  .latest-funding .fund-article .title {
-    background: #fa4625;
-    padding: 15px 15px 10px 85px;
-    color: #fff;
-    font-weight: bold;
-  }
-  .latest-funding .fund-article .amount {
-    background: #fff4f2;
-    padding: 10px 15px 15px 85px;
-    color: #000;
-    font-weight: bold;
-  }
-  .latest-funding .fund-article .amount small {
-    font-size: 12px;
-    color: #aaa;
-  }
-  .latest-funding .fund-article .content {
-    padding: 16px;
-  }
-  .latest-funding .fund-article .content ul li {
-    margin-bottom: 10px;
-  }
-  .latest-funding .fund-article .content ul li a {
-    color: #333;
-    font-size: 16px;
-  }
-  .latest-funding .fund-article .content ul li a .icon {
-    margin-right: 15px;
-  }
-  .latest-funding .fund-article .footer {
-    padding: 16px;
-    border-top: 1px solid rgba(255, 68, 34, 0.25);
-  }
   .latest-funding .fund-article:last-child {
     display: none;
   }
@@ -407,6 +409,25 @@ ul {
     position: relative;
     margin-bottom: 0px;
   }
+
+  .latest-funding .header {
+    display: block;
+  }
+  .latest-funding .header ul {
+    justify-content: flex-start;
+  }
+  .latest-funding .header ul li {
+    padding: 0px;
+  }
+  .latest-funding .header ul li:nth-child(2) {
+    padding: 0px 10px;
+    border-left: 1px solid #fa4625;
+    border-right: 1px solid #fa4625;
+    margin: 0px 10px;
+  }
+  .latest-funding .fund-article:last-child {
+    display: none;
+  }
 }
 @media screen and (min-width: 1024px) {
   .grid {
@@ -523,6 +544,22 @@ ul {
     bottom: 0px;
     position: relative;
     margin-bottom: 0px;
+  }
+
+  .latest-funding .header {
+    display: flex;
+  }
+  .latest-funding .header ul li {
+    padding: 0px;
+  }
+  .latest-funding .header ul li:nth-child(2) {
+    padding: 0px 10px;
+    border-left: 1px solid #fa4625;
+    border-right: 1px solid #fa4625;
+    margin: 0px 10px;
+  }
+  .latest-funding .fund-article:last-child {
+    display: block;
   }
 }
 
