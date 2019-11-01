@@ -9,7 +9,7 @@
     <br />    
     <br />
     ·
-     <a href="#">View Demo</a>
+     <a href="https://raw.githack.com/genzaraki/tnwclone/home_page/index.html">View Demo</a>
     ·    
   </p>
 </p>
