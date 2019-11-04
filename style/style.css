@@ -40,12 +40,14 @@ ul {
   background-color: #000;
   padding: 0 10px;
 }
+
 .navbar.top a {
   color: rgba(255, 255, 255, 0.6);
   padding: 5px 15px;
   display: block;
   font-size: 12px;
 }
+
 .navbar.top a:hover {
   cursor: pointer;
   color: #fff;
@@ -59,6 +61,7 @@ ul {
   padding: 0 10px;
   box-shadow: 0 10px 5px rgba(200, 200, 200, 0.6);
 }
+
 .navbar.main .logo-sm {
   background: red;
   width: 100px;
@@ -66,17 +69,21 @@ ul {
   display: flex;
   padding: 5px;
 }
+
 .navbar.main .logo-sm img {
   height: 30px;
 }
+
 .navbar.main .nav-link {
   color: #adadad;
   display: block;
   padding: 5px 10px;
 }
+
 .navbar.main .nav-link:hover {
   color: #000;
 }
+
 .navbar.main .nav-right .nav-link {
   border-left: 1px solid #adadad;
   height: 48px;
@@ -105,12 +112,14 @@ ul {
   margin-top: 60px;
   margin-bottom: 60px;
 }
+
 .sec .sec-title {
   color: #fa4625;
   font-size: 1.8rem;
   font-weight: bold;
   margin: 0 0 20px 0;
 }
+
 .sec .sec-title:hover {
   cursor: pointer;
   color: #000;
@@ -139,17 +148,21 @@ ul {
 .latest-funding .header {
   margin-bottom: 15px;
 }
+
 .latest-funding .header ul .lf-link {
   color: #fa4625;
 }
+
 .latest-funding .header ul .lf-link:hover {
   color: #000;
 }
+
 .latest-funding .fund-article {
   position: relative;
   background: #fffaf8;
   margin-bottom: 24px;
 }
+
 .latest-funding .fund-article .logo {
   width: 60px;
   height: 60px;
@@ -158,38 +171,47 @@ ul {
   left: 10px;
   background-size: cover;
 }
+
 .latest-funding .fund-article .logo img {
   display: none;
 }
+
 .latest-funding .fund-article .title {
   background: #fa4625;
   padding: 15px 15px 10px 85px;
   color: #fff;
   font-weight: bold;
 }
+
 .latest-funding .fund-article .amount {
   background: #fff4f2;
   padding: 10px 15px 15px 85px;
   color: #000;
   font-weight: bold;
 }
+
 .latest-funding .fund-article .amount small {
   font-size: 12px;
   color: #aaa;
 }
+
 .latest-funding .fund-article .content {
   padding: 16px;
 }
+
 .latest-funding .fund-article .content ul li {
   margin-bottom: 10px;
 }
+
 .latest-funding .fund-article .content ul li a {
   color: #333;
   font-size: 16px;
 }
+
 .latest-funding .fund-article .content ul li a .icon {
   margin-right: 15px;
 }
+
 .latest-funding .fund-article .footer {
   padding: 16px;
   border-top: 1px solid rgba(255, 68, 34, 0.25);
@@ -200,9 +222,11 @@ ul {
   display: flex;
   margin-bottom: 30px;
 }
+
 .featured .ft-art {
   position: relative;
 }
+
 .featured .ft-art .cover {
   position: absolute;
   top: 0;
@@ -211,9 +235,11 @@ ul {
   bottom: 0;
   background-size: cover;
 }
+
 .featured .ft-art .date {
   display: none;
 }
+
 .featured .ft-art .infos {
   position: absolute;
   top: 0;
@@ -223,6 +249,7 @@ ul {
   color: #fff;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
 }
+
 .featured .ft-art .infos .info-btm {
   position: absolute;
   bottom: 0;
@@ -230,38 +257,48 @@ ul {
   left: 0;
   padding: 15px;
 }
+
 .featured .ft-art .infos .info-btm .category {
   font-size: 16px;
 }
+
 .featured .ft-art .infos .info-btm .title {
   margin: 5px 0;
   font-size: 18px;
 }
+
 .featured .ft-art .infos .info-btm .details {
   color: rgba(255, 255, 255, 0.6);
   font-size: 12px;
 }
+
 .featured .ft-art .infos:hover {
   cursor: pointer;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), black);
 }
+
 .featured .ft-art-1 {
   height: 60vh;
 }
+
 .featured .ft-col {
   height: 60vh;
   padding: 5px;
 }
+
 .featured .ft-col.col-1 {
   width: 66.666%;
 }
+
 .featured .ft-col.col-2 {
   width: 33.333%;
 }
+
 .featured .ft-art-2 {
   height: 50%;
   margin-bottom: 10px;
 }
+
 .featured .ft-art-3 {
   height: 50%;
 }
@@ -271,12 +308,14 @@ ul {
   padding: 0;
   margin: 0;
 }
+
 .cat-sec .cat-sec-element.second {
   margin-bottom: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .cat-sec .cat-sec-element.second .content {
   background: #fffaf8;
   padding: 10px 15px 2px;
@@ -286,40 +325,49 @@ ul {
   justify-content: flex-start;
   flex-direction: column;
 }
+
 .cat-sec .cat-sec-element.second .label {
   color: #f42;
   font-size: 14px;
   font-weight: 400;
 }
+
 .cat-sec .cat-sec-element.second .label-head {
   margin-top: 0;
   font-size: 14px;
   font-weight: 600;
 }
+
 .cat-sec .cat-sec-element.second .label-head a {
   color: #f42;
 }
+
 .cat-sec .cat-sec-element.second .label-hd-lg {
   height: 96px;
   min-width: 96px;
   background-size: cover;
   display: block;
 }
+
 .cat-sec .cat-sec-element.second .links {
   padding-top: 5px;
   list-style: square;
 }
+
 .cat-sec .cat-sec-element.second .links a {
   color: #555;
 }
+
 .cat-sec .cat-sec-element.first {
   position: relative;
   margin-bottom: 2px;
 }
+
 .cat-sec .cat-sec-element.first .cover {
   height: 30vh;
   background-size: cover;
 }
+
 .cat-sec .cat-sec-element.first .content {
   position: absolute;
   top: 0;
@@ -329,6 +377,7 @@ ul {
   color: #fff;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
 }
+
 .cat-sec .cat-sec-element.first .content .content-img {
   position: absolute;
   bottom: 0;
@@ -336,29 +385,36 @@ ul {
   left: 0;
   padding: 15px;
 }
+
 .cat-sec .cat-sec-element.first .content .label {
   font-size: 16px;
   color: #fff;
 }
+
 .cat-sec .cat-sec-element.first .content .content-head {
   margin: 5px 0;
   font-size: 18px;
 }
+
 .cat-sec .cat-sec-element.first .content .content-head a {
   color: #fff;
   font-weight: 700;
 }
+
 .cat-sec .cat-sec-element.first .content .author {
   margin: 5px 0;
   font-size: 12px;
 }
+
 .cat-sec .cat-sec-element.first .content .author a {
   color: rgba(255, 255, 255, 0.6);
 }
+
 .cat-sec .cat-sec-element.first .content:hover {
   cursor: pointer;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), black);
 }
+
 .cat-sec .cat-sec-element.cat-link {
   padding: 10px 5px 10px 20px;
   font-size: 13px;
@@ -367,9 +423,11 @@ ul {
   display: block;
   color: #666;
 }
+
 .cat-sec .cat-sec-element.cat-link:hover {
   color: #000;
 }
+
 .cat-sec .cat-sec-element.cat-link::after {
   position: absolute;
   content: "";
@@ -385,13 +443,16 @@ footer {
   clear: both;
   margin-top: 30px;
 }
+
 footer .nav {
   background: #131313;
   padding: 60px;
 }
+
 footer .nav .container {
   flex-direction: column;
 }
+
 footer .nav .contacts .icons {
   display: inline-block;
   width: 50px;
@@ -399,10 +460,12 @@ footer .nav .contacts .icons {
   color: #fff;
   font-size: 1.5rem;
 }
+
 footer .nav .sitemap .stmap-link {
   color: #fff;
   padding: 2px 10px;
 }
+
 footer .copyright {
   background: #000;
   padding: 30px;
@@ -416,25 +479,30 @@ footer .copyright {
   }
 
   .dflex-sb-c,
-.dflex-c-c {
+  .dflex-c-c {
     display: block;
   }
 
   header .navbar.top {
     display: none;
   }
+
   header .navbar.main .breadcumb {
     display: flex;
   }
+
   header .navbar.main .logo-sm {
     display: block;
   }
+
   header .navbar.main .nav-left {
     display: none;
   }
+
   header .navbar.main .nav-right {
     display: flex;
   }
+
   header .navbar.main .nav-right .nav-link {
     display: flex;
   }
@@ -442,13 +510,15 @@ footer .copyright {
   .featured {
     display: block;
   }
+
   .featured .ft-col.col-1,
-.featured .ft-col.col-2 {
+  .featured .ft-col.col-2 {
     width: 100%;
     height: auto;
   }
+
   .featured .ft-col.col-1 .ft-art,
-.featured .ft-col.col-2 .ft-art {
+  .featured .ft-col.col-2 .ft-art {
     height: 30vh;
   }
 
@@ -457,10 +527,12 @@ footer .copyright {
     padding: 0;
     margin: 0;
   }
+
   .latest-news .lt-article {
     clear: both;
     margin-bottom: 15px;
   }
+
   .latest-news .lt-article .art-cover {
     height: 75px;
     width: 75px;
@@ -485,10 +557,12 @@ footer .copyright {
     padding: 0;
     margin: 0;
   }
+
   .latest-deals .lt-article {
     clear: both;
     margin-bottom: 15px;
   }
+
   .latest-deals .lt-article .art-cover {
     height: 75px;
     width: 75px;
@@ -499,16 +573,20 @@ footer .copyright {
     position: relative;
     margin-bottom: 5px;
   }
+
   .latest-deals .lt-article .art-title {
     margin-bottom: 10px;
   }
+
   .latest-deals .lt-article .promotion {
     display: none;
   }
+
   .latest-deals .lt-article .price {
     font-size: 12px;
     color: #aaa;
   }
+
   .latest-deals .lt-article .price .old {
     text-decoration: line-through;
   }
@@ -517,31 +595,38 @@ footer .copyright {
     clear: both;
     margin-top: 30px;
   }
+
   footer .nav {
     background: #131313;
     padding: 10 5px;
   }
+
   footer .nav .container {
     display: block;
   }
+
   footer .nav .contacts {
     text-align: center;
   }
+
   footer .nav .contacts .icons {
     display: block;
     float: left;
     color: #fff;
     font-size: 1.5rem;
   }
+
   footer .nav .sitemap {
     text-align: center;
     clear: both;
   }
+
   footer .nav .sitemap .stmap-link {
     display: block;
     color: #fff;
     padding: 10px 3px;
   }
+
   footer .copyright {
     background: #000;
     padding: 30px;
@@ -550,6 +635,7 @@ footer .copyright {
     text-align: center;
   }
 }
+
 @media screen and (min-width: 767px) {
   .grid {
     display: grid;
@@ -579,15 +665,19 @@ footer .copyright {
   header .navbar.top {
     display: none;
   }
+
   header .navbar.main .breadcumb {
     display: flex;
   }
+
   header .navbar.main .logo-sm {
     display: block;
   }
+
   header .navbar.main .nav-left {
     display: none;
   }
+
   header .navbar.main .nav-right .nav-link {
     display: flex;
   }
@@ -608,18 +698,22 @@ footer .copyright {
   .latest-funding .header {
     display: block;
   }
+
   .latest-funding .header ul {
     justify-content: flex-start;
   }
+
   .latest-funding .header ul li {
     padding: 0;
   }
+
   .latest-funding .header ul li:nth-child(2) {
     padding: 0 10px;
     border-left: 1px solid #fa4625;
     border-right: 1px solid #fa4625;
     margin: 0 10px;
   }
+
   .latest-funding .fund-article:last-child {
     display: none;
   }
@@ -629,12 +723,14 @@ footer .copyright {
     padding: 0;
     margin: 0;
   }
+
   .latest-deals .lt-article {
     clear: both;
     margin-bottom: 15px;
     position: relative;
     overflow: hidden;
   }
+
   .latest-deals .lt-article .art-cover {
     height: 180px;
     width: 258px;
@@ -643,10 +739,12 @@ footer .copyright {
     position: relative;
     margin-bottom: 0;
   }
+
   .latest-deals .lt-article .art-title {
     margin-top: 10px;
     margin-bottom: 10px;
   }
+
   .latest-deals .lt-article .promotion {
     position: absolute;
     top: -15px;
@@ -660,16 +758,19 @@ footer .copyright {
     font-weight: 800;
     transform: rotate(45deg);
   }
+
   .latest-deals .lt-article .price {
     font-size: 14px;
     color: #666;
   }
+
   .latest-deals .lt-article .price .old {
     text-decoration: line-through;
     font-size: 12px;
     color: #aaa;
   }
 }
+
 @media screen and (min-width: 1024px) {
   .grid {
     display: grid;
@@ -700,18 +801,22 @@ footer .copyright {
     display: flex;
     margin-left: 0;
   }
+
   header .navbar.main {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 0;
   }
+
   header .navbar.main .breadcumb {
     display: none;
   }
+
   header .navbar.main .logo-sm {
     display: none;
   }
+
   header .navbar.main .nav-left {
     display: flex;
   }
@@ -719,6 +824,7 @@ footer .copyright {
   .featured {
     display: flex;
   }
+
   .featured .ft-art .date {
     display: none;
   }
@@ -735,18 +841,19 @@ footer .copyright {
   .latest-funding .header {
     display: flex;
   }
+
   .latest-funding .header ul li {
     padding: 0;
   }
+
   .latest-funding .header ul li:nth-child(2) {
     padding: 0 10px;
     border-left: 1px solid #fa4625;
     border-right: 1px solid #fa4625;
     margin: 0 10px;
   }
+
   .latest-funding .fund-article:last-child {
     display: block;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
