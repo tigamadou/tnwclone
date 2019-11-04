@@ -2,7 +2,7 @@
 ![Screenshot Image](images/screen-shot.png)
 <br />
 <p align="center">
-   <h3 align="center">Smashing Magazine Page</h3>
+   <h3 align="center">The Next Web home page</h3>
 
   <p align="center">
     A simple clone page of The Next Web home page.
