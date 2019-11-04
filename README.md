@@ -2,14 +2,14 @@
 ![Screenshot Image](images/screen-shot.png)
 <br />
 <p align="center">
-   <h3 align="center">Smashing Magazine Page</h3>
+   <h3 align="center">The Next Web home page</h3>
 
   <p align="center">
     A simple clone page of The Next Web home page.
     <br />    
     <br />
     ·
-     <a href="#">View Demo</a>
+     <a href="https://https://rawcdn.githack.com/genzaraki/tnwclone/1e69cd517d0b3ba4d5141716041f9476442dbdab/index.html">View Demo</a>
     ·    
   </p>
 </p>
