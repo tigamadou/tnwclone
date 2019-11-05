@@ -40,7 +40,7 @@
 ### Contact
 * Amadou - [@tigamadou](https://twitter.com/tigamadou) - [LinkedIn](https://www.linkedin.com/in/amadou-ibrahim-75769167) - [GitHub](https://github.com/genzaraki)
 * Wilfried - [@WCanirinka](https://twitter.com/WCanirinka)  - [LinkedIn](https://www.linkedin.com/in/wilfried-canirinka-884ab0b6/) - [GitHub](https://github.com/WCanirinka)
-* Project Link [https://wcanirinka.github.io/smashingmagazine-page/](https://wcanirinka.github.io/smashingmagazine-page/)
+* Project Link [https://github.com/genzaraki/tnwclone/](https://github.com/genzaraki/tnwclone/)
 
 ### Acknowledgements
 
