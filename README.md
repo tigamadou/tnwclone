@@ -9,7 +9,7 @@
     <br />    
     <br />
     ·
-     <a href="https://https://rawcdn.githack.com/genzaraki/tnwclone/1e69cd517d0b3ba4d5141716041f9476442dbdab/index.html">View Demo</a>
+     <a href="https://rawcdn.githack.com/genzaraki/tnwclone/e6d9f252fbd557fa4753d200fbe7aa71218c194c/index.html">View Demo</a>
     ·    
   </p>
 </p>
