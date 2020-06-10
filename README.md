@@ -5,7 +5,7 @@
    <h3 align="center">The Next Web home page</h3>
 
   <p align="center">
-    A simple clone page of The Next Web home page.
+    A simple clone page of The Next Web home page. Build with Html and Css.
     <br />    
     <br />
     ·
